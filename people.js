@@ -69,6 +69,37 @@ const madeleineDeLaTourDAuvergne = {
 		'alexandre de medicis',
 	]
 }
+const charles9 = {
+	name: 'charles 9',
+	children: [
+		'marie elisabeth de france',
+		'charles d angouleme',
+	]
+}
+const elisabethDAutriche = {
+	name: 'elisabeth d autriche',
+	children: [
+		'marie elisabeth de france',
+	]
+}
+const maximilien2DeHabsbourg = {
+	name: 'maximilien 2 de habsbourg',
+	children: [
+		'elisabeth d autriche'
+	]
+}
+const marieDAutriche = {
+	name: 'marie d autriche',
+	children: [
+		'elisabeth d autriche'
+	]
+}
+const ferdinand1er = {
+	name: 'ferdinand 1er',
+	children: [
+		'maximilien 2 de habsbourg',
+	]
+}
 module.exports = [
 	francois1er,
 	claudeDeFrance,
@@ -78,4 +109,9 @@ module.exports = [
 	catherineDeMedicis,
 	laurent2DeMedicis,
 	madeleineDeLaTourDAuvergne,
+	charles9,
+	elisabethDAutriche,
+	maximilien2DeHabsbourg,
+	marieDAutriche,
+	ferdinand1er,
 ]
