@@ -140,6 +140,20 @@ const margueriteDAutricheStyrie = {
 	]
 }
 
+const philippe4 = {
+	name: 'philippe 4',
+	children: [
+		'balthazar charles d autriche',
+		'marie thereze d autriche',
+		'philippe prosper d autriche',
+		'marguerite thereze d autriche',
+		'charles 2',
+	]
+}
+const charles2 = {
+	name: 'charles 2',
+	children: []
+}
 module.exports = [
 	francois1er,
 	claudeDeFrance,
@@ -159,4 +173,6 @@ module.exports = [
 	diegoFelix,
 	philippe3,
 	margueriteDAutricheStyrie,
+	philippe4,
+	charles2,
 ]
