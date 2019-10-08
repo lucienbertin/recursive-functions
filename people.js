@@ -85,13 +85,21 @@ const elisabethDAutriche = {
 const maximilien2DeHabsbourg = {
 	name: 'maximilien 2 de habsbourg',
 	children: [
-		'elisabeth d autriche'
+		'anne d autriche',
+		'rodolphe 2',
+		'ernest d autriche',
+		'elisabeth d autriche',
+		'matthias 1er',
 	]
 }
 const marieDAutriche = {
 	name: 'marie d autriche',
 	children: [
-		'elisabeth d autriche'
+		'anne d autriche',
+		'rodolphe 2',
+		'ernest d autriche',
+		'elisabeth d autriche',
+		'matthias 1er',
 	]
 }
 const ferdinand1er = {
@@ -100,6 +108,38 @@ const ferdinand1er = {
 		'maximilien 2 de habsbourg',
 	]
 }
+const henri3 = {
+	name: 'henri 3',
+	children: [],
+}
+const anneDAutriche = {
+	name: 'anne d autriche',
+	children: [
+		'diego felix',
+		'philippe 3',
+	],
+}
+const diegoFelix = {
+	name: 'diego felix',
+	children: []
+}
+const philippe3 = {
+	name: 'philippe 3',
+	children: [
+		'philippe 4',
+		'marie anne d autriche',
+		'charles d autriche',
+	]
+}
+const margueriteDAutricheStyrie = {
+	name: 'marguerite d autriche styrie',
+	children: [
+		'philippe 4',
+		'marie anne d autriche',
+		'charles d autriche',
+	]
+}
+
 module.exports = [
 	francois1er,
 	claudeDeFrance,
@@ -114,4 +154,9 @@ module.exports = [
 	maximilien2DeHabsbourg,
 	marieDAutriche,
 	ferdinand1er,
+	henri3,
+	anneDAutriche,
+	diegoFelix,
+	philippe3,
+	margueriteDAutricheStyrie,
 ]
