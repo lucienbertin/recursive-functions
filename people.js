@@ -29,10 +29,23 @@ const claudeDeFrance = {
 		'marguerite de france',
 	]
 }
-
+const henri2 = {
+	name: 'henri 2',
+	children: [
+		'francois 2',
+		'elisabeth de france',
+		'louis de france',
+		'charles 9',
+		'henri 3',
+		'marguerite de france',
+		'victoire de france',
+		'jeanne de france',
+	]
+}
 module.exports = [
 	francois1er,
 	claudeDeFrance,
 	louiseDeFrance,
-	charlotteDeFrance
+	charlotteDeFrance,
+	henri2
 ]
